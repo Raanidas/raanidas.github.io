@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquatics</title>
+<style>
+   *{
+        box-sizing: border-box;
+    }
+body{
+    padding: 0%;
+    margin: 0%;
+        height: 100vh;
+background-image: url("./ivan-bandura-m7IGjPQGgRo-unsplash.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+.container{
+display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.subcontainer{
+    height: 50em;
+    width: 50em;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 6em;
+    border-radius: 50%;
+    /* background-color: aqua; */
+    opacity: 0.8;
+    z-index: -3;
+    background-image: url("./alfred-kenneally-swdRH05wYhA-unsplash.jpg");
+    background-size: cover;
+}
+.subcontainer:hover{
+    /* transform: scale(2); */
+    border: 2px solid rgb(4, 57, 78);
+    box-shadow: 0 0 50px white, 0 0 50px white, 0 0 50px white,0 0 50px white;
+
+}
+.heading{
+    color:  rgb(4, 57, 78);
+    font-size: 7em;
+    position: relative;
+    bottom: 0.6em;
+    z-index: 5;
+
+}
+.line{
+    font-size: 1.7em;
+    color:  rgb(4, 57, 78);
+    position: relative;
+    bottom: 6em;
+    text-align: center;
+padding: 0px 80px 0px 80px;
+    /* top: 2px; */
+}
+.smallcircles{
+    height: 2em;
+    width: 2em;
+    background-color: rgb(4, 57, 78);
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    display: inline;
+bottom: 1em;
+top: 33em;
+    
+}
+#smallcircles1{
+    left: 38em;
+}
+#smallcircles2{
+    left: 34em;
+}
+#smallcircles3{
+    left: 42em;
+}
+
+
+.circlecontainer{
+display: flex;
+    align-items: center;
+    justify-content: center;
+gap: 1em;
+
+}
+
+.circle{
+    height: 25em;
+    width: 25em;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: relative;
+    bottom: 12em;
+    transition: all 1s ease-in-out 0.3s;
+}
+.circle:hover{
+    transform: scale(1.083);
+    box-shadow: 0 0 50px white, 0 0 50px white, 0 0 50px white,0 0 50px white;
+    
+}
+#c1{
+background-image: url("./snapsaga-wjuB3-rbuqg-unsplash.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+/* background-position: ; */
+}
+#c2{
+background-image: url("./pexels-mikhail-nilov-8356060.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+#c3{
+    background-image: url("./chris-yang-Kn9fryrcQw8-unsplash.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.square-parent{
+display: flex;
+    align-items: center;
+    justify-content: center;
+gap: 2em;
+
+}
+.square-discription{
+    height: 12em;
+    width: 25em;
+    border: 2px solid white;
+    position: relative;
+    bottom: 8em;
+    background-color: rgb(4, 57, 78,0.6);
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    transition: all 0.5s ease-in-out 0.3s;
+   box-shadow: 0 0 15px white, 0 0 15px white, 0 0 15px white,0 0 15px white;
+ 
+
+}
+.desp{
+    text-align: center;
+    padding: 15px 20px 0px 15px ;
+}
+.square-discription:hover{
+
+    transform: scale(1.023);
+    box-shadow: 0 0 50px white, 0 0 50px white, 0 0 50px white,0 0 50px white;
+   
+}
+.btn{
+
+    padding: 10px;
+    
+    border: 2px solid rgb(4, 57, 78);
+    background-color: white;
+    border-radius: 10px;
+}
+.btn a{
+    color: rgb(4, 57, 78);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0 0 30px white, 0 0 30px white, 0 0 30px white,0 0 30px white;
+
+}
+
+
+/* ------------------FOOTER SECTION DESIGN-----------*/
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+} */
+
+.main-footer {
+    position: relative;
+    width: 100%;
+    /* Replace the URL below with your background image path */
+    background: url('https://images.unsplash.com/photo-1530521954074-e64f6810b32d?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+    color: white;
+}
+
+/* Dark overlay to make text pop like the image */
+.footer-overlay {
+    background: rgba(0, 0, 0, 0.8); 
+    padding: 40px 8% 20px 8%;
+}
+
+/* Top Header Styles */
+.footer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.social-links a {
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #ccc;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: 40px;
+}
+
+/* Columns Layout */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 30px;
+}
+
+.footer-col h3 {
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #ddd;
+    cursor: pointer;
+    position: relative;
+    padding-left: 15px;
+}
+
+/* Bullet points from the image */
+.footer-col ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: white;
+}
+
+.footer-col ul li:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.phone {
+    font-weight: bold;
+}
+
+/* Logo and Copyright Section (Bottom Right) */
+.brand-box {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.brand-name {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.copyright {
+    font-size: 11px;
+    color: #bbb;
+    margin-top: 5px;
+}
+
+/* Developed By text */
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #999;
+}
+
+.footer-bottom strong {
+    color: white;
+    letter-spacing: 1px;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+    .footer-header {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+/* 
+footer section complete */
+</style>
+</head>
+<body>
+<div class="container">
+<div class="subcontainer">
+<h1 class="heading">Hydro Heaven </h1>
+<p class="line">The beauty of this world is incomplete without it's aquatic views. Green hills may ground us, but it is the endless blue that sets our minds free.</p>
+</div>
+</div>
+
+<div class="smallcircles" id="smallcircles1"></div>
+<div class="smallcircles" id="smallcircles2"></div>
+<div class="smallcircles" id="smallcircles3"></div>
+<!-- circle main img======== -->
+<div class="circlecontainer">
+<div class="circle" id="c1"></div>
+<div class="circle" id="c2"></div>
+<div class="circle" id="c3"></div>
+</div>
+<!-- square description========== -->
+<div class="square-parent">
+<div class="square-discription">
+<h3>Raja Ampat</h3>
+<p class="desp">It is known as the "Coral Triangle," it has the highest marine biodiversity on Earth. It is located in Indonesia.</p>
+<button type="submit" class="btn"><a href="./raja-ampat.html" target="_blank">Read about it</a></button>
+</div>
+<div class="square-discription">
+<h3>The Maldivian Lagoons</h3>
+<p class="desp">Situated in the heart of the Indian Ocean, these lagoons feature water so crystal-clear that you can look straight down to the ocean floor.</p>
+<button type="submit" class="btn"><a href="./maldivian_lagoon.html" target="_blank">Read about it</a></button>
+
+</div>
+<div class="square-discription">
+<h3>The Great Blue Hole</h3>
+<p class="desp">This is a perfectly circular underwater sinkhole. It creates a beautiful and dramatic contrast against the surrounding water.</p>
+<button type="submit" class="btn"><a href="./the-great-blue-hole.html" target="_blank">Read about it</a></button>
+
+</div>
+    </div>
+
+
+<!---------------------====== footersection=======-------------- -->
+<section id="footer-contact">
+
+<footer class="main-footer">
+    <div class="footer-overlay">
+        <div class="footer-header">
+          <!-- .... -->
+          <!-- logo -->
+           <!-- ..... -->
+            <div class="logo-text">ExploreTime<span>®</span></div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <hr class="footer-divider">
+
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Navigation Links</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>FAQ</li>
+                    <li>Terms and Conditions</li>
+                    <li>Privacy Policy</li>
+                    <li>Booking Terms</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <ul>
+                    <li>Snapshots</li>
+                    <li>Recordings</li>
+                    <li>Blog</li>
+                    <li>Contact Us</li>
+                    <li>AB Testing</li>
+                    <li>Feedback</li>
+                    <li>Life Support Conditions</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Terms and Policies</h3>
+                <ul>
+                    <li>Link to legal docs</li>
+                    <li>Privacy Policy</li>
+                    <li>Cookie Policy</li>
+                    <li>Booking Terms</li>
+                </ul>
+            </div>
+
+            <div class="footer-col last-col">
+                <h3>Customer Support</h3>
+                <ul>
+                    <li>Live Chat Support</li>
+                    <li class="phone">+92 3332981741</li>
+                </ul>
+
+                <div class="brand-box">
+    <img src="logo_aquatic_on_lightaqua.png" height="100px" width="100px" alt="" ></li>
+                    
+                    <!-- <svg width="60" height="80" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15,19L17,21H21V19H15M21,12V17H19L17,15H15V12H21M12,2C10.89,2 10,2.89 10,4C10,5.11 10.89,6 12,6C13.11,6 14,5.11 14,4C14,2.89 13.11,2 12,2M15,9H9V12H11V18H13V12H15V9Z" />
+                    </svg> -->
+                    <div class="brand-name">ExploreTime<span>®</span></div>
+                    <p class="copyright">Copyright © 2026 ExploreTime. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Developed BY | <strong>RAANI DAS</strong></p>
+        </div>
+    </div>
+</footer>
+</section>
+
+<!-- ----------footerend----------- -->
+
+
+</body>
+</html>
