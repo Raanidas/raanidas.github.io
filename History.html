@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritages</title>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+body{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    background: rgb(99, 185, 99,0.8); 
+ background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url("./sandip-kalal-aiFT4-ufTW4-unsplash.jpg");
+      background-size: cover;
+    background-repeat: repeat-y;
+    /* opacity: 0.8; */
+}
+.container{
+    height: 50em;
+    width: 57em;
+    padding: 5em;
+    background-color: rgba(205, 141, 30, 0.8);
+    margin-top: 9em;
+    border: 3px solid black;
+    clip-path: polygon(25% 0, 77% 0, 100% 30%, 100% 70%, 78% 100%, 23% 100%, 0% 70%, 0% 30%);
+}
+#mainhead2{
+font-size: 2.7em;
+color: white;
+margin-top: 0.4em;
+padding: 0%;
+margin-left: 1.6em;
+position: relative;
+top: 35px;
+}
+.mainline1{
+    font-size: 2em;
+color: white;
+margin-left: 2em;
+
+}
+.mainhead1{
+    margin-top: 0.3em;
+    font-size: 5.8em;
+    margin-left:0.7em;
+    text-align: left;
+    line-height: 90px;
+    color: black;
+    position: relative;
+    z-index: 7;
+}
+.secondcont{
+    height: 100%;
+    width: 100%;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.octagon{
+    height: 28em;
+    width: 25em;
+    background-color: white;
+    border: 3px solid rgba(205, 141, 30);
+    clip-path: polygon(25% 0, 77% 0, 100% 30%, 100% 70%, 78% 100%, 23% 100%, 0% 70%, 0% 30%);
+position: absolute;
+box-shadow: 0px 0px 20px black, 0px 0px 20px black,0px 0px 20px black,0px 0px 20px black;
+
+}
+#octagon1{
+    left: 10px;
+    background-image:url("./noman-bukhari-q8ZiBGZID1g-unsplash.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#octagon2{
+top:42em;
+width: 27em;
+    background-image:url("./rowan-heuvel-sAB4BWrQ4Y4-unsplash.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#octagon3{
+    right: 10px;
+        background-image:url("./ahmed-ashraf-GsZsn8SaUzg-unsplash.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.desp{
+    height: 13em;
+    width: 25em;
+    margin: 7px;
+    background-color: rgba(205, 141, 30, 0.8);
+padding: 1em 2em 1em 2em;
+    position: relative;
+box-shadow: 0px 0px 20px black, 0px 0px 20px black,0px 0px 20px black,0px 0px 20px black;
+
+}
+#desp1,#desp3{
+    /* margin-top: ; */
+    top: 22em;
+}
+#desp2{
+    top: 11em;
+}
+.headings{
+font-size: 2.5em;
+margin: 0px;
+margin-bottom: 0.4em;
+}
+.lines{
+    margin-top: 0px;
+font-size:1.2em;
+}
+#btn{
+    padding: 8px;
+    width: 8em;
+    margin-top: 16px;
+    background-color:black ;
+    border: 2px solid rgba(205, 141, 30, 0.8);
+box-shadow: 0px 0px 10px black, 0px 0px 10px black,0px 0px 10px black,0px 0px 10px black;
+
+}
+#btnlink{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgba(205, 141, 30, 0.8);
+
+}
+
+/* ------------------FOOTER SECTION DESIGN-----------*/
+
+.footer{
+    width: 100%;
+  margin-top: 23em;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-footer {
+    position: relative;
+    width: 100%;
+    /* Replace the URL below with your background image path */
+    background: url('https://images.unsplash.com/photo-1530521954074-e64f6810b32d?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+    color: white;
+}
+
+/* Dark overlay to make text pop like the image */
+.footer-overlay {
+    background: rgba(0, 0, 0, 0.8); 
+    padding: 40px 8% 20px 8%;
+}
+
+/* Top Header Styles */
+.footer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.social-links a {
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #ccc;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: 40px;
+}
+
+/* Columns Layout */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 30px;
+}
+
+.footer-col h3 {
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #ddd;
+    cursor: pointer;
+    position: relative;
+    padding-left: 15px;
+}
+
+/* Bullet points from the image */
+.footer-col ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: white;
+}
+
+.footer-col ul li:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.phone {
+    font-weight: bold;
+}
+
+/* Logo and Copyright Section (Bottom Right) */
+.brand-box {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.brand-name {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.copyright {
+    font-size: 11px;
+    color: #bbb;
+    margin-top: 5px;
+}
+
+/* Developed By text */
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #999;
+}
+
+.footer-bottom strong {
+    color: white;
+    letter-spacing: 1px;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+    .footer-header {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+/* 
+footer section complete */
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+    <div class="container">
+        <h3 id="mainhead2">We believe</h3>
+        <h1 class="mainhead1">Heritage Inspires Future</h1>
+        <p class="mainline1"> growth, so we must protect our historic landmarks.</p>
+    </div>
+    <!-- image------- -->
+    <div class="secondcont">
+<div class="octagon" id="octagon1"></div>
+<div class="desp" id="desp1">
+<h1 class="headings">Mohenjo-Daro</h1>
+<p class="lines"> An essential Indus Valley site offering a look into some of the earliest urban planning and ancient drainage systems.</p>
+<button type="submit" id="btn"><a href="./history_mohen-jo-daro.html" target="_blank" id="btnlink">Details</a></button>
+</div>
+<!-- secondimage===== -->
+<div class="octagon" id="octagon2"></div>
+<div class="desp" id="desp2">
+    
+<h1 class="headings">Taj Mehal</h1>
+<p class="lines">The Taj Mahal is a stunning ivory-white marble mausoleum in Agra, India. It considered as a symbol of love.</p>
+<button type="submit" id="btn"><a href="./Tah-mehal.html" target="_blank" id="btnlink">Details</a></button>
+</div>
+<!-- thirdimage---------- -->
+<div class="octagon" id="octagon3"></div>
+<div class="desp" id="desp3">
+<h1 class="headings">Pyramids of Giza</h1>
+<p class="lines"> A cornerstone for researching ancient Egyptian funerary architecture and societal organization.</p>
+<button type="submit" id="btn"><a href="paramid_of_giza.html" target="_blank" id="btnlink">Details</a></button></div>
+</div>
+<br><br>
+
+<div class="footer">
+
+<!---------------------====== footersection=======-------------- -->
+<section id="footer-contact">
+
+<footer class="main-footer">
+    <div class="footer-overlay">
+        <div class="footer-header">
+          <!-- .... -->
+          <!-- logo -->
+           <!-- ..... -->
+            <div class="logo-text">ExploreTime<span>®</span></div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <hr class="footer-divider">
+
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Navigation Links</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>FAQ</li>
+                    <li>Terms and Conditions</li>
+                    <li>Privacy Policy</li>
+                    <li>Booking Terms</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <ul>
+                    <li>Snapshots</li>
+                    <li>Recordings</li>
+                    <li>Blog</li>
+                    <li>Contact Us</li>
+                    <li>AB Testing</li>
+                    <li>Feedback</li>
+                    <li>Life Support Conditions</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Terms and Policies</h3>
+                <ul>
+                    <li>Link to legal docs</li>
+                    <li>Privacy Policy</li>
+                    <li>Cookie Policy</li>
+                    <li>Booking Terms</li>
+                </ul>
+            </div>
+
+            <div class="footer-col last-col">
+                <h3>Customer Support</h3>
+                <ul>
+                    <li>Live Chat Support</li>
+                    <li class="phone">+92 3332981741</li>
+                </ul>
+
+                <div class="brand-box">
+                        <img src="logo_aquatic_on_lightaqua.png" height="100px" width="100px" alt="" ></li>
+
+                    <div class="brand-name">ExploreTime<span>®</span></div>
+                    <p class="copyright">Copyright © 2026 ExploreTime. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Developed BY | <strong>RAANI DAS</strong></p>
+        </div>
+    </div>
+</footer>
+</section>
+
+<!-- ----------footerend----------- -->
+
+
+
+
+</body>
+</html>
