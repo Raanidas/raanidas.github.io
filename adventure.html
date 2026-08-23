@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventurous land</title>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+body,html{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(99, 185, 99,0.8); 
+    
+    background-image: url("./neom-gOqBe7ropxM-unsplash.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+    /* opacity: 0.; */
+    z-index: -4;
+}
+.container{
+    margin-top: 0px;
+    background-color:rgb(88, 39, 39,0.3);
+    height: 27em;
+    width: 78em;
+    border-radius: 3em;
+}
+.subcontainer{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card1{
+
+    background-color: rgb(255, 255, 255);
+    height: 33em;
+    width: 23em;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px ;
+    /* position:absolute; */
+   margin-top: 18em;
+      margin-bottom: 3em; 
+          transition: all 0.5s ease-in-out 0.2s;
+/* border: 3px solid black; */
+}
+
+.card1:hover{
+       /* outline: 4px solid rgb(83, 28, 45); */
+    transform: scale(1.023);
+    box-shadow: 0 0 50px #c6a9a9, 0 0 50px #c6a9a9, 0 0 50px #c6a9a9,0 0 50px #c6a9a9;
+    
+    }
+.heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10em;
+    text-align: center;
+    color: rgb(88, 39, 39,0.8);
+}
+#line{
+        color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.line2{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+
+}
+img{
+    height: 72%;
+    width: 100%;
+    border: 3px solid white;
+    border-radius: 20px;
+
+}
+#btn3{
+
+padding: 8px;
+color: white;
+background-color:  rgba(104, 46, 46, 0.7);
+border: 2px solid white;
+width: 7em;    
+text-align: center;
+    font-size: 17px;
+    border-radius: 10px;
+        box-shadow: 0 0 15px rgb(88, 39, 39,0.8), 0 0 50px rgb(88, 39, 39,0.8), 0 0 15px rgb(88, 39, 39,0.8),0 0 15px rgb(88, 39, 39,0.8);
+margin-left: 7em;
+ margin-top: 0.7em;
+ /* margin-right: 7.5em; */
+    /* left: 10px;
+    width: 6em; */
+}
+#btn3 a{
+    color: white;
+    text-decoration: none;
+
+}
+#visit{
+    text-decoration: none;
+    color: brown;
+    font-size: 15px;
+    position: relative;
+    top: 20px;
+    left: 120px;
+    /* text-align: cnter; */
+
+}
+#visit:hover{
+    text-decoration: underline;
+}
+h5{
+    font-size: 20px;
+ color: rgb(88, 39, 39);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-left: 5px;
+text-align: center;
+}
+.card-text{
+    color: #6e5f5f;
+text-align: center;
+
+}
+.card-body{
+    height: 15em;
+}
+/* ------------------FOOTER SECTION DESIGN-----------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.main-footer {
+    position: relative;
+    width: 100%;
+    /* Replace the URL below with your background image path */
+    background: url('https://images.unsplash.com/photo-1530521954074-e64f6810b32d?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+    color: white;
+}
+
+/* Dark overlay to make text pop like the image */
+.footer-overlay {
+    background: rgba(0, 0, 0, 0.8); 
+    padding: 40px 8% 20px 8%;
+}
+
+/* Top Header Styles */
+.footer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.social-links a {
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #ccc;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: 40px;
+}
+
+/* Columns Layout */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 30px;
+}
+
+.footer-col h3 {
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #ddd;
+    cursor: pointer;
+    position: relative;
+    padding-left: 15px;
+}
+
+/* Bullet points from the image */
+.footer-col ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: white;
+}
+
+.footer-col ul li:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.phone {
+    font-weight: bold;
+}
+
+/* Logo and Copyright Section (Bottom Right) */
+.brand-box {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.brand-name {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.copyright {
+    font-size: 11px;
+    color: #bbb;
+    margin-top: 5px;
+}
+
+/* Developed By text */
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #999;
+}
+
+.footer-bottom strong {
+    color: white;
+    letter-spacing: 1px;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+    .footer-header {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+/* 
+footer section complete */
+</style>
+
+
+
+</head>
+<body>
+    <div class="container">
+<h1 class="heading">ADVENTURES</h1>
+<p id="line">KNOW SOMETHING NEW ABOUT ADVENTUROUS WORLD!!</p>
+<p class="line2"> <br><b>"Life is either a daring adventure or nothing at all"</b><br>Adventure is the bridge between dreams and reality, a bold pursuit that pulls you out of your comfort zone and transforms<br> the unknown into unforgettable stories.</p>
+
+<div class="subcontainer">
+
+    <!-- card1 -->
+    <div class="card1" id="card1">
+  <img src="c:\Users\FATTANI COMPUTERS\OneDrive\Hình ảnh\website material\horror1.jpg" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Feel Adventure in Horror Story</h5>
+    <p class="card-text">Read about the special story. The imaginative horror adventure is interested and unforgettable for the reader. </p>
+<button type="submit" class="bt" id="btn3" ><a href="./horroradventure.html"  target="_blank"> Read more</a></button>
+    </div>
+</div>
+<!-- card2 -->
+<div class="card1" id="card2" >
+  <img src="./ricardo-gomez-angel-LZEVpsbSI9k-unsplash (1).jpg" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Adventure of Sky Diving</h5>
+    <p class="card-text">Sky diving is one of the most popular adventures loved by many of people. Lets! learn how to enjoy it.</p>
+    <button type="submit" class="bt" id="btn3" ><a href="./skydiving.html" target="_blank"> Read more</a></button>
+  </div>
+</div>
+<!-- card3 -->
+<div class="card1" id="card3" >
+  <img src="c:\Users\FATTANI COMPUTERS\OneDrive\Hình ảnh\134127752259527471.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Adventure in Forest</h5>
+    <p class="card-text">"Read about a forest adventure and discover the true meaning of life's adventure and it's importance in life. </p>
+    <button type="submit" class="bt" id="btn3" ><a href="./forestadventure.html"  target="_blank"> Read more</a></button>
+  </div>
+</div>
+<!-- cards end -->
+</div>
+<!---------------------====== footersection=======-------------- -->
+<section id="footer-contact">
+
+<footer class="main-footer">
+    <div class="footer-overlay">
+        <div class="footer-header">
+          <!-- .... -->
+          <!-- logo -->
+           <!-- ..... -->
+            <div class="logo-text">ExploreTime<span>®</span></div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <hr class="footer-divider">
+
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Navigation Links</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>FAQ</li>
+                    <li>Terms and Conditions</li>
+                    <li>Privacy Policy</li>
+                    <li>Booking Terms</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <ul>
+                    <li>Snapshots</li>
+                    <li>Recordings</li>
+                    <li>Blog</li>
+                    <li>Contact Us</li>
+                    <li>AB Testing</li>
+                    <li>Feedback</li>
+                    <li>Life Support Conditions</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Terms and Policies</h3>
+                <ul>
+                    <li>Link to legal docs</li>
+                    <li>Privacy Policy</li>
+                    <li>Cookie Policy</li>
+                    <li>Booking Terms</li>
+                </ul>
+            </div>
+
+            <div class="footer-col last-col">
+                <h3>Customer Support</h3>
+                <ul>
+                    <li>Live Chat Support</li>
+                    <li class="phone">+92 3332981741</li>
+                </ul>
+
+                <div class="brand-box">
+    <img src="logo_aquatic_on_lightaqua.png" height="100px" width="100px" alt="" >
+                    <div class="brand-name">ExploreTime<span>®</span></div>
+                    <p class="copyright">Copyright © 2026 ExploreTime. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Developed BY | <strong>RAANI DAS</strong></p>
+        </div>
+    </div>
+</footer>
+</section>
+
+<!-- ----------footerend----------- -->
+
+
+
+
+
+
+    </div>
+</body>
+</html>
