@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountains</title>
+<style>
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 0%;
+    margin: 0%; 
+    width: 100%;
+    height: 100%;
+background-image: url("./massimiliano-morosinotto-3i5PHVp1Fkw-unsplash.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+}
+.container{
+ height:80%;
+ width: 80%;
+ margin-top: 7em;
+ background-color: rgb(0, 0, 0, 0.8);
+ border: 2px solid white;
+ border-radius: 2em;
+/* opacity: 0.7; */
+}
+.heading1{
+    color: white;
+    position: relative;
+ z-index: 6;
+ font-size:6em;
+ text-align: center;
+ top: 1.5em;
+}
+.hone{
+    position: absolute;
+    z-index: 10;
+    top:7.5em;
+    left: 11.8em;
+    color: rgb(214, 212, 212);
+    font-size: 1.7em;
+}
+#one1{
+    top:8.7em;
+}
+#one2{
+    top: 13em;
+}
+.gridcontainer{
+    height: 95%;
+    width: 95%;
+    border: 2px solid white;
+    margin-top: 17em;
+    margin-bottom: 5em;
+    padding: 2em;
+ display: grid;
+ grid-template-columns: 2fr 2fr;
+/* grid-template-areas: ; */
+gap: 30px;
+margin-left: 25px;
+}
+.subcontainer{
+    
+    border-radius: 20px;
+    height: 33em;
+    border: 2px solid white;
+    transition: all 1s ease-in-out 0.3s;
+
+}
+#subcontainer1{
+    height: 22em;
+grid-column-start: 1;
+grid-column-end: -1;
+display: flex;
+flex-direction: row;
+}
+#third{
+height: 100%;
+width: 50%;
+}
+
+.imgs{
+    position: relative;
+    z-index: 18;
+    height: 70%;
+    width: 100%;
+border: 2px solid white;
+ border-top-left-radius:20px ;
+ border-top-right-radius:20px ;
+}
+.subcontainer:hover{
+    box-shadow: 0 0 30px white, 0 0 30px white, 0 0 30px white,0 0 30px white;
+/* transform: scale(1.012); */
+}
+.disp{
+    position: relative;
+    z-index: 6;
+    color: white;
+}
+#one{
+    font-size: 2.5em;
+text-align: center;
+padding-left: 40px;
+}
+#line1{
+    margin-top: 0.5em;
+text-align: center;
+}
+.btn{
+    /* height: 1.5em; */
+padding: 10px;
+color: white;
+background-color: rgb(0, 0, 0);
+border: 2px solid white;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px white, 0 0 15px white, 0 0 15px white,0 0 15px white;
+   position: relative;
+   top: 15px;
+   left: 9.5em;
+}
+.btn a,#btn3 a{
+    text-decoration: none;
+    color: white;
+}
+.thirdimgdesp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    box-sizing: border-box;
+}
+#Himalayas{
+    margin-bottom: 0.2em;
+    margin-top: 0.1em;
+ font-size: 3em;
+}
+#Himalayasline{
+font-size: 19px;
+}
+#btn3{
+
+padding: 10px;
+color: white;
+background-color: rgb(0, 0, 0);
+border: 2px solid white;
+width: 7em;    
+text-align: center;
+    font-size: 17px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px white, 0 0 15px white, 0 0 15px white,0 0 15px white;
+ margin-top: 2em;
+ margin-right: 10.5em;
+    /* left: 10px;
+    width: 6em; */
+}
+
+/* ------------------FOOTER SECTION DESIGN-----------*/
+
+.footer{
+    width: 100%;
+  margin-top: 3em;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-footer {
+    position: relative;
+    width: 100%;
+    /* Replace the URL below with your background image path */
+    background: url('https://images.unsplash.com/photo-1530521954074-e64f6810b32d?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+    color: white;
+}
+
+/* Dark overlay to make text pop like the image */
+.footer-overlay {
+    background: rgba(0, 0, 0, 0.8); 
+    padding: 40px 8% 20px 8%;
+}
+
+/* Top Header Styles */
+.footer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.social-links a {
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #ccc;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: 40px;
+}
+
+/* Columns Layout */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 30px;
+}
+
+.footer-col h3 {
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #ddd;
+    cursor: pointer;
+    position: relative;
+    padding-left: 15px;
+}
+
+/* Bullet points from the image */
+.footer-col ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: white;
+}
+
+.footer-col ul li:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.phone {
+    font-weight: bold;
+}
+
+/* Logo and Copyright Section (Bottom Right) */
+.brand-box {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.brand-name {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.copyright {
+    font-size: 11px;
+    color: #bbb;
+    margin-top: 5px;
+}
+
+/* Developed By text */
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #999;
+}
+
+.footer-bottom strong {
+    color: white;
+    letter-spacing: 1px;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+    .footer-header {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+/* 
+footer section complete */
+
+
+
+</style>
+
+
+
+</head>
+<body>
+    <div class="container">
+        <h3 class="hone" id="one1">Where the skyline meets the earth,</h3>
+        <h1 class="heading1">Feel the Nature</h1>
+        <h3 class="hone" id="one2">at its most majestic—a giant, silent monument of stone and sky.</h3>
+
+      <div class="gridcontainer">
+<!-- first image======== -->
+        
+<div class="subcontainer">
+  <img src="./eugene-ga-infssQ2tjeM-unsplash.jpg" alt="" class="imgs">
+  <div class="disp"><h1 id="one">Mount Everest</h1><p id="line1">It is located in Nepal, it is also called "Khumbu Region".</p></div>
+<button type="submit" class="btn"><a href="./mountain3_mounteverest.html" target="_blank"> Read more</a></button>
+</div>
+<!-- second image======== -->
+<div class="subcontainer">
+      <img src="./andrew-svk-7oJ4D_ewB7c-unsplash.jpg" alt="" class="imgs">
+  <div class="disp"><h1 id="one">The Andes</h1><p id="line1">It is located in South America, it is also called "Khumbu Region".</p></div>
+<button type="submit" class="btn"><a href="./mountain2_andes.html" target="_blank"> Read more</a></button>
+</div>
+<!-- thirdimages===== -->
+<div class="subcontainer" id="subcontainer1">
+      <img src="./pexels-arjay-neyra-2152024526-32436572.jpg"alt="" class="imgs" id="third">
+  <div class="thirdimgdesp">
+      <div class="disp"><h1 id="Himalayas">The Himalayas </h1><p id="Himalayasline">The Himalayas in Pakistan are a section<br> of the great Himalayan mountain system. <br>It is also called "Khumbu Region".</p></div>
+<button type="submit" class="bt" id="btn3" ><a href="./mountain1.html" target="_blank"> Read more</a></button>
+</div>
+</div>
+
+</div>  
+    </div>
+
+<div class="footer">
+<!---------------------====== footersection=======-------------- -->
+<section id="footer-contact">
+
+<footer class="main-footer">
+    <div class="footer-overlay">
+        <div class="footer-header">
+          <!-- .... -->
+          <!-- logo -->
+           <!-- ..... -->
+            <div class="logo-text">ExploreTime<span>®</span></div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <hr class="footer-divider">
+
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Navigation Links</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>FAQ</li>
+                    <li>Terms and Conditions</li>
+                    <li>Privacy Policy</li>
+                    <li>Booking Terms</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <ul>
+                    <li>Snapshots</li>
+                    <li>Recordings</li>
+                    <li>Blog</li>
+                    <li>Contact Us</li>
+                    <li>AB Testing</li>
+                    <li>Feedback</li>
+                    <li>Life Support Conditions</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Terms and Policies</h3>
+                <ul>
+                    <li>Link to legal docs</li>
+                    <li>Privacy Policy</li>
+                    <li>Cookie Policy</li>
+                    <li>Booking Terms</li>
+                </ul>
+            </div>
+
+            <div class="footer-col last-col">
+                <h3>Customer Support</h3>
+                <ul>
+                    <li>Live Chat Support</li>
+                    <li class="phone">+92 3332981741</li>
+                </ul>
+
+                <div class="brand-box">
+                        <img src="logo_aquatic_on_lightaqua.png" height="100px" width="100px" alt="" ></li>
+                    <div class="brand-name">ExploreTime<span>®</span></div>
+                    <p class="copyright">Copyright © 2026 ExploreTime. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Developed BY | <strong>RAANI DAS</strong></p>
+        </div>
+    </div>
+</footer>
+</section>
+
+<!-- ----------footerend----------- -->
+
+
+
+</div>
+
+</body>
+</html>

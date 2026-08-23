@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Maldivian Lagoons</title>
+<style>
+  *{
+        box-sizing: border-box;
+    }
+    body {
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+        height: 100%;
+        /* YAHAN APNE BACKGROUND IMAGE KA PATH DALEIN */
+        /* background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url("./sandip-kalal-aiFT4-ufTW4-unsplash.jpg"); */
+        background-image:linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("./ivan-bandura-m7IGjPQGgRo-unsplash.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 84%;
+        height: 90%;
+        margin-top: 3%;
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        border-top-left-radius: 50% 15%; 
+        border-top-right-radius: 50% 15%;
+border: 5px solid white;
+
+        overflow: hidden; /* Yeh andar ke items ko clip karega */
+    }
+
+    .mainbox1 {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        border: 2px solid rgb(0, 56, 70);
+        background-image: url("./pexels-mikhail-nilov-8356060.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        animation: image 4s ease-in-out 0.1s infinite;
+border: 2px solid white;
+        border-top-left-radius: 50% 25%;
+        border-top-right-radius: 50% 25%;
+    }
+.one{
+    font-size: 2em;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    position: relative;
+    bottom: 1.2em;
+
+}
+    .subcontainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    flex-direction: column;
+    }
+    #btn{
+    padding: 12px;
+    width: 15em;
+    /* margin-top: 16px; */
+    background-color:rgb(0, 56, 70,0.7) ;
+    border: 2px solid rgb(0, 56, 70);
+    border-radius: 20px;
+    position: relative;
+    bottom: 3em;
+box-shadow: 0px 0px 10px white, 0px 0px 10px white,0px 0px 10px white,0px 0px 10px white;
+
+}
+#btn a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+
+    #one {
+        width: 100%; /* Heading ko center karne ke liye width badhai */
+        padding: 2em;
+    }
+
+.mainbox2{
+    padding: 3em 4em 0px 4em;
+}
+
+
+
+    .heading {
+        text-align: center;
+        font-family: 'Arial Black', Gadget, sans-serif;
+        font-size: 4.12em;
+        margin: 0.2em;
+        margin-top: 2.7em;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+
+
+@keyframes image{
+/* 0%{
+
+    background-image: url("");
+
+} */
+25%{
+/* /madhav-Xi-Qv7UxWxs-unsplash.jpg */
+    background-image: url("./pexels-andi-saiful-sidik-2160410058-36823817.jpg");
+background-size: cover;
+    background-repeat: repeat-y;
+}
+50%{
+
+    background-image: url("./pexels-asadphoto-28843910.jpg"); 
+background-size: cover;
+    background-repeat: repeat-y;
+}
+75%{
+
+    background-image: url("./pexels-asadphoto-9394645.jpg");
+background-size: cover;
+    background-repeat: repeat-y;
+}
+}
+.headings, .head1{
+    margin: 20px;
+    color:rgb(0, 56, 70);
+    font-size: 2.5em;
+    margin-left: 0%;
+}
+
+
+.head1{
+    font-size: 3.5em;
+    text-align: center;
+    border-bottom: 2px solid rgb(0, 56, 70);
+}
+table{
+    padding: 10px;
+    border: 2px solid  rgb(0, 56, 70);
+    width: 85%;
+    margin-top:6.5;
+    margin-left:4.5em;
+    
+
+}
+th{
+    padding: 10px;
+
+    font-size: 1.5em;
+    color:  rgb(0, 56, 70);
+}
+td{
+    color:  rgb(0, 56, 70);
+    font-size: 1.3em;
+    padding: 5px;
+}
+
+
+.line{
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: rgb(111, 109, 109);
+    font-size: 20px;
+    margin-bottom: 3em;
+    margin-left: 9em;
+
+}
+p{
+    text-align: justify;
+    color: rgb(0, 56, 70);
+    font-family: Arial, Helvetica, sans-serif;
+line-height: 30px;
+font-size: 19px;
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="mainbox1">
+<div class="subcontainer" id="one">
+    <div class="heading">THE MALDIVIAN LAGOONS</div>
+    <p class="one">A garland of turquoise glass, where the gentle tide whispers secrets of the reef and the sky melts into liquid sapphire.</p>
+    <button type="submit" id="btn"><a href="#mainsection">Visit It</a></button>
+</div>
+
+</div>
+
+
+
+<section name="" id="mainsection">
+<div class="mainbox2">
+<h1 class="head1">DETAILS and EXPLORATION</h1>
+<h1 class="headings">1. Geographical Setting and Geomorphological Genesis</h1>
+<p>The Maldivian lagoons form an intricate, interconnected aquatic matrix situated in the heart of the central Indian Ocean. Spanning a vast maritime territory along a double chain of 26 natural atolls, this archipelago encompasses roughly 1,192 low-lying coral islands spread across 90,000 square kilometers. The unique geomorphology of these lagoons is the result of millions of years of volcanic subsidence and subsequent coralline accretion. As ancient basaltic volcanoes slowly subsided, fringing coral reefs grew upward, ultimately forming massive, hollow-centered ring structures known as atolls.</p>
+<p>The calm lagoons enclosed within these atoll rings vary in depth from 20 to 60 meters. They serve as natural marine sanctuaries shielded from the open ocean's energy by massive, continuous outer barrier reefs. These shallow aquatic shelves create the iconic turquoise-and-deep-blue gradient visible from high altitude, separating the open ocean from the internal lagoon beds.</p>
+
+<h1 class="headings">2. Hydro-Optical Characteristics and Water Clarity Mechanics</h1>
+<p>The primary feature of the Maldivian lagoons is their world-renowned water clarity, allowing an observer to look straight down to the ocean floor. This ultra-high visibility is driven by specific biological and physical mechanics:</p>
+<p><b>•	Oligotrophic Conditions:</b> The waters of the Maldives are highly oligotrophic, meaning they are naturally low in organic nutrients, nitrogen, and phosphorus. This prevents major plankton blooms from clouding the water column.</p>
+<p><b>•	Coral Sand Filtration:</b> The sediment forming the lagoon floor consists of heavy coral sand (calcium carbonate generated by parrotfish and coralline algae erosion) rather than fine terrestrial silica or mud. Because this sand is heavy, it settles almost immediately out of suspension after being disturbed by currents.</p>
+<p><b>•	Isolated Ocean Currents:</b> The archipelago is continuously flushed by deep, clean oceanic current systems traveling across the vast Indian Ocean basin, which prevents the stagnation or accumulation of organic debris.</p>
+
+<h1 class="headings">3. The Lagoon Ecological Matrix and Biological Diversity</h1>
+<p>Far from being empty sandy basins, the Maldivian lagoons act as critical nurseries, feeding zones, and habitats for thousands of specialized marine species. The table below outlines the core components of this biodiversity matrix:</p>
+
+<table border="2px">
+    <tr><th>Biological Class</th>    <th>Recorded Diversity Indicators</th> <th>Functional Lagoon Ecosystem Role</th>   </tr>
+    <tr><td><b>Scleractinian Corals</b></td>    <td>Over 250 verified species forming outer rings and inner micro-atolls</td> <td>Provides physical habitat structure, shoreline buffering, and primary carbon fixation.</td>   </tr>
+    <tr><td><b>Ichthyofauna (Fish)</b></td>    <td>Over 1,100 to 1,200 documented marine species</td> <td>Includes apex predators, herbivorous grazing groups (Parrotfish), and dense school foragers.</td>   </tr>
+    <tr><td><b>Elasmobranchii</b></td>    <td>Over 20 distinct shark and ray species (Whale Sharks, Reef Sharks, Manta Rays)</td> <td>Utilize shallow, calm lagoon basins as critical nursery zones for vulnerable young pups.</td>  </tr>
+    <tr><td><b>Marine Reptiles</b></td>    <td>5 of the world's 7 sea turtle species, dominated by Hawksbill and Green Turtles</td> <td>Lagoon seagrass meadows and inner patch reefs serve as critical feeding grounds.</td> </tr>
+    
+</table>
+
+<h1 class="headings">4. Internal Micro-Habitats: Patch Reefs and Thilas</h1>
+<p>The interior topography of Maldivian lagoons is marked by complex structural variations that interrupt the vast stretches of white coral sand, concentrating life into dense underwater hotspots:</p>
+<p><b>•	Thilas:</b> Submerged coral mounts that rise steeply from the deep lagoon floor, often stopping just a few meters short of the ocean surface. They act as massive underwater magnets for marine life, capturing nutrient-heavy currents and feeding massive schools of blue-stripe snappers, fusiliers, and hunting jacks.</p>
+<p><b>•	Giris:</b> Similar to thilas, but these coral structures break the water surface or sit directly exposed during extreme low tides, presenting a distinct set of wave-resistant intertidal organisms.</p>
+<p><b>•	Faras:</b> Extended reef flats or patch reefs that dot the shallow sandy margins of the inner lagoon, acting as specialized micro-habitats for cryptic invertebrates, nudibranchs, and camouflage-reliant bottom dwellers.</p>
+
+
+<h1 class="headings">5. Environmental Vulnerabilities and Climate Challenges</h1>
+<p>As low-lying ecosystems (with an average natural land elevation of just 1.5 meters above sea level), the Maldivian lagoons and atolls are on the front lines of global climate disruption, facing severe long-term environmental threats:</p>
+<p><b>•	Thermal Bleaching Events:</b> Elevated ocean temperatures driven by El Niño anomalies (most notably in 1998, 2016, and recent cycles) cause mass coral bleaching, forcing symbiotic zooxanthellae out of the coral tissues and threatening the structural foundation of the lagoons.</p>
+<p><b>•	Ocean Acidification:</b> As the Indian Ocean absorbs higher levels of atmospheric carbon dioxide, its pH drops. This acidification slows calcification rates, weakening the structural framework of the coral reefs and making them crumble faster under wave action.</p>
+<p><b>•	Sea-Level Rise:</b> Rising sea levels alter lagoon hydrodynamics and depth profiles, shifting the fragile light-penetration zones required by photosynthetic corals to survive.</p>
+
+<h1 class="headings">6. Conservation Architecture and Local Innovations</h1>
+<p>To counter these severe threats and ensure the long-term survival of their primary natural asset, the Maldivian government, local communities, and international scientists have established an advanced conservation framework. Massive Marine Protected Areas (MPAs) have been set up nationwide, with standout zones like the Baa Atoll Biosphere Reserve—officially recognized by UNESCO.</p>
+<p>Within these sanctuaries, destructive commercial extraction is completely prohibited, and sustainable practices are strictly enforced. Furthermore, the Maldives has pioneered cutting-edge ecological rehabilitation projects, including extensive coral propagation nurseries, artificial reef frameworks using low-voltage electrical currents to accelerate calcification, and community-led marine conservation groups. These initiatives aim to protect the lagoons' crystal-clear water column, safeguard marine biodiversity, and ensure the long-term survival of this unique natural ecosystem.</p>
+</div>    
+<div class="line">"This is not the end of information; exploration is ongoing."</div>
+    
+
+</section>
+</div>
+</body>
+</html>
