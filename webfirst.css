@@ -1,0 +1,212 @@
+*{
+
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+
+  background-color: rgba(206, 153, 153, 0.4);
+}
+
+.navbar{
+  color: black;
+z-index: 1;
+border: 2px solid  rgb(203, 125, 125,0.1);
+width: 98%;
+display: flex;
+flex-direction: row-reverse;
+/* align-items: center; */
+justify-content: center;
+/* align-content: space-around; */
+background-color: rgb(203, 125, 125,0.1);
+border-radius: 20px;
+font-size: 25px;
+position:fixed;
+font-family: 'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: none;
+/* margin-left: 3em; */
+}
+a:hover{
+        text-align: underline;
+}
+
+.navbar li a{
+  
+}
+
+
+#mainimg{
+   height:32em;
+   width: 100%;
+    
+}
+.main{
+  text-align: center;
+  padding: 20px;
+}
+#c1{
+background-color: rgb(147, 229, 147);
+  /* background-image: url("./diogo-fagundes-kcmbNT_x5dA-unsplash.jpg");
+background-size: cover;
+background-repeat: repeat; */
+}
+
+#cardeven{
+
+height: 23rem; margin-left: 7em;   width: 100%;
+}
+#cardodd{
+  height: 23rem; width: 100%;
+}
+/* ------------------FOOTER SECTION DESIGN-----------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.main-footer {
+    position: relative;
+    width: 100%;
+    /* Replace the URL below with your background image path */
+    background: url('https://images.unsplash.com/photo-1530521954074-e64f6810b32d?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+    color: white;
+}
+
+/* Dark overlay to make text pop like the image */
+.footer-overlay {
+    background: rgba(0, 0, 0, 0.85); 
+    padding: 40px 8% 20px 8%;
+}
+
+/* Top Header Styles */
+.footer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.social-links a {
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #ccc;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 40px;
+}
+
+/* Columns Layout */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 30px;
+}
+
+.footer-col h3 {
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #ddd;
+    cursor: pointer;
+    position: relative;
+    padding-left: 15px;
+}
+
+/* Bullet points from the image */
+.footer-col ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: white;
+}
+
+.footer-col ul li:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.phone {
+    font-weight: bold;
+}
+
+/* Logo and Copyright Section (Bottom Right) */
+.brand-box {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.brand-name {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.copyright {
+    font-size: 11px;
+    color: #bbb;
+    margin-top: 5px;
+}
+
+/* Developed By text */
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #999;
+}
+
+.footer-bottom strong {
+    color: white;
+    letter-spacing: 1px;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+    .footer-header {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+/* 
+footer section complete */
+
+
+

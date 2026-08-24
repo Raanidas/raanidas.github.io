@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <script src="../BOOTSTRAP/bootstrap-library/LIBRARY css-js/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../BOOTSTRAP/bootstrap-library/LIBRARY css-js/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+   <style>
+    *{
+        font-size: 18px;
+    }
+    
+    body{
+        background-image: url("./neom-gOqBe7ropxM-unsplash.jpg");
+     background-size: cover;   
+    }
+    #bootcontainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 600px;
+    }
+#parent{
+      background-color: rgb(211, 192, 164,0.4) ;
+height: 570px;
+width: 450px;
+border: 2px solid rgb(83, 28, 45);
+outline: 2px solid rgb(255, 255, 255);
+/* margin-left: 450px;
+margin-top:15px ; */
+border-radius: 15px;
+/* display: flex;
+flex-direction: column; */
+transition: box-shadow 0.4s ease, transform 0.3s ease;
+}
+#parent:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 50px #ffffff, 0 0 50px #ffffff, 0 0 50px #fffdfa,0 0 50px #ffffff;
+
+  outline: 4px solid rgb(93, 28, 50);
+}
+
+h1{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+font-size: 37px;
+}
+#sign{
+    border: 2px solid rgb(255, 255, 255);
+    height: 25px;
+    width: 170px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: RGB(166, 120, 90);
+    text-transform: uppercase;
+   font-size: 25px;
+   text-align: center;
+}
+i{
+    position: absolute;
+    font-size: 25px;
+}
+#e{
+color: rgb(85, 81, 81);
+font-size: 18px;
+margin-top: 28px;
+margin-left: -45px;
+/* 
+margin-left: 50px; */
+}
+input{
+    text-align: center;
+height: 35px;
+width: 350px;
+font-size: 15px;
+margin-left: 50px;
+border-radius:5px;
+margin-top: 15px;
+border: 2px solid RGB(166, 120, 90);
+}
+#p{
+     margin-top:0px ;
+     margin-bottom: 0px; 
+text-align: center;
+}
+p{
+    font-weight: 600;
+    color: #3A2F2A;
+    /* color: rgb(0, 0, 0); */
+    text-align: center;
+}
+hr{
+color:  RGB(166, 120, 90);
+}
+#in{
+    text-align: left;
+}
+#f{
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-left: 95px;
+    font-size: 26px;
+    background-color: rgb(245, 245, 245);
+color: blue;
+}
+#fb{
+    margin-top: 0px;
+    background-color: RGB(166, 120, 90);
+    color: aliceblue;
+    border: 2px solid white;
+    font-size: 18px;
+}
+#gg{
+    font-size: 18px;
+    margin-top:7px ;
+    background-color:  RGB(166, 120, 90);
+    color: aliceblue;
+    border: 2px solid white;
+}
+#g{
+    color: rgb(255, 255, 255);
+;    margin-top: 48px;
+    margin-left: -305px;
+    border-radius: 50%;
+    /* background-color: aliceblue; */
+
+}
+#or{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+#Already{
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+
+
+
+
+button{
+    
+  background-color:  RGB(166, 120, 90);
+  color: rgb(248, 248, 248);
+  border: 2px solid rgb(255, 255, 255);
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 50px;
+  margin-top: 13px;
+    margin-left: 130px;
+    width: 200px;
+    font-size: 26px;
+    font-weight: bold;  
+    transition-duration: 1s;
+  transition: box-shadow 0.4s ease, transform 0.3s ease;
+
+    }
+        button:hover {
+       box-shadow: 0 0 20px white, 0 0 40px white, 0 0 white;
+  transform: scale(1.05);
+
+
+}
+
+
+</style>
+</head>
+<body><!--bootstrap-->
+<div class="container" id="bootcontainer">    
+<div class="row">    
+    
+
+    <form>
+   <!-- ....--> <div class="col-md-8 col-sm-6"  id="parent">
+        <h1>SIGNUP </h1>
+    <!-- <p id="sign">Signup</p><hr> -->
+    <input type="Email" placeholder="Email Address" id="in" required>
+    <input type="password" placeholder="Create password" id="in" required>
+    <i class="fa-solid fa-eye-slash" id="e"></i>
+    <input type="password" placeholder="Confirm password " id="in" required>
+    <i class="fa-solid fa-eye-slash" id="e"></i>
+    <p id="p">Forget password?</p>
+<button id="signupBtn" type="button">SIGNUP</button>
+
+<!-- <button>SIGNUP </button> -->
+    <!-- <input type="text" value="SIGNUP" id="ls" > -->
+    <p id="already">Already have an account?<a href="weblogin.html"> Login</a></p>
+    <p id="or">____________________OR_____________________</p>    
+    <i class="fa-brands fa-facebook" id="f"></i>
+    <input value="Login with Facebook" id="fb" readonly>
+    <i class="fa-brands fa-google" id="g"></i>
+    <input value="Login with Google" id="gg" readonly >
+    </div>
+    <!-- <div class="btn btn-primary"></div> -->
+
+</div>
+</div>
+</form>
+
+
+<script type="module">
+  // Firebase SDKs import karein
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-app.js";
+  import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyDZf3ehDQ3YFxYcXbtBPltIdytByKEau2E",
+    authDomain: "website-security-6e0c1.firebaseapp.com",
+    projectId: "website-security-6e0c1",
+    storageBucket: "website-security-6e0c1.firebasestorage.app",
+    messagingSenderId: "329456167268",
+    appId: "1:329456167268:web:d7026b07c55db7e8c1f271"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+
+  // Signup Logic
+  document.getElementById("signupBtn").addEventListener("click", () => {
+    const email = document.querySelectorAll("input")[0].value;
+    const password = document.querySelectorAll("input")[1].value;
+
+    createUserWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        alert("Account Created Successfully!");
+       window.location.href = "weblogin.html";
+        //window.location.href = "check.html"; // Signup ke baad yahan le jaye
+      })
+      .catch((error) => {
+        alert("Error: " + error.message);
+      });
+  });
+</script>

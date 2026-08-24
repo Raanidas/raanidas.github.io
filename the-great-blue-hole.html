@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Great Blue Hole</title>
+<style>
+  *{
+        box-sizing: border-box;
+    }
+    body {
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+        height: 100%;
+        /* YAHAN APNE BACKGROUND IMAGE KA PATH DALEIN */
+        /* background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url("./sandip-kalal-aiFT4-ufTW4-unsplash.jpg"); */
+        background-image:linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("./ivan-bandura-m7IGjPQGgRo-unsplash.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 83%;
+        height: 90%;
+        margin-top: 3%;
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        border-top-left-radius: 50% 15%; 
+        border-top-right-radius: 50% 15%;
+border: 5px solid white;
+
+        overflow: hidden; /* Yeh andar ke items ko clip karega */
+    }
+
+    .mainbox1 {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        border: 2px solid rgb(0, 56, 70);
+        background-image: url("./chris-yang-Kn9fryrcQw8-unsplash.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        animation: image 4s ease-in-out 0.1s infinite;
+border: 2px solid white;
+        border-top-left-radius: 50% 25%;
+        border-top-right-radius: 50% 25%;
+    }
+
+    .subcontainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    flex-direction: column;
+    }
+    .one{
+    font-size: 2em;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    position: relative;
+    bottom: 1.4em;
+
+}
+    #btn{
+    padding: 12px;
+    width: 15em;
+    /* margin-top: 16px; */
+    background-color:rgb(0, 56, 70,0.7) ;
+    border: 2px solid rgb(0, 56, 70);
+    border-radius: 20px;
+    position: relative;
+    bottom: 3em;
+box-shadow: 0px 0px 10px white, 0px 0px 10px white,0px 0px 10px white,0px 0px 10px white;
+
+}
+#btn a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+
+    #one {
+        width: 100%; /* Heading ko center karne ke liye width badhai */
+        padding: 2em;
+    }
+
+.mainbox2{
+    padding: 3em 4em 0px 4em;
+}
+
+
+
+    .heading {
+        text-align: center;
+        font-family: 'Arial Black', Gadget, sans-serif;
+        font-size: 4.1em;
+        margin: 2em 1em 0.5em 1em;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+
+
+@keyframes image{
+/* 0%{
+
+    background-image: url("");
+
+} */
+25%{
+/* /madhav-Xi-Qv7UxWxs-unsplash.jpg */
+    background-image: url("./pexels-jorge__-medina_-234739426-12458141.jpg");
+background-size: cover;
+    background-repeat: repeat-y;
+}
+50%{
+
+    background-image: url("./pexels-polina-kovaleva-7600040.jpg"); 
+background-size: cover;
+    background-repeat: repeat-y;
+}
+75%{
+
+    background-image: url("./pexels-asadphoto-28408430.jpg");
+background-size: cover;
+    background-repeat: repeat-y;
+}
+}
+.headings, .head1{
+    margin: 20px;
+    color:rgb(0, 56, 70);
+    font-size: 2.5em;
+    margin-left: 0%;
+}
+
+
+.head1{
+    font-size: 3.5em;
+    text-align: center;
+    border-bottom: 2px solid rgb(0, 56, 70);
+}
+table{
+    padding: 10px;
+    border: 2px solid  rgb(0, 56, 70);
+    width: 85%;
+    margin-top:6.5;
+    margin-left:4.5em;
+    
+
+}
+th{
+    padding: 10px;
+
+    font-size: 1.5em;
+    color:  rgb(0, 56, 70);
+}
+td{
+    color:  rgb(0, 56, 70);
+    font-size: 1.3em;
+    padding: 5px;
+}
+
+
+.line{
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: rgb(111, 109, 109);
+    font-size: 20px;
+    margin-bottom: 3em;
+    margin-left: 9em;
+
+}
+p{
+    text-align: justify;
+    color: rgb(0, 56, 70);
+    font-family: Arial, Helvetica, sans-serif;
+line-height: 30px;
+font-size: 19px;
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="mainbox1">
+<div class="subcontainer" id="one">
+    <div class="heading">THE GREAT BLUE HOLE OF BELIZE</div>
+    <p class="one">"A sapphire pupil gazing from the deep, holding the ancient secrets of the sea within its dark heart."</p>
+    <button type="submit" id="btn"><a href="#mainsection">Visit It</a></button>
+</div>
+
+</div>
+
+
+
+<section name="" id="mainsection">
+<div class="mainbox2">
+<h1 class="head1">DETAILS and EXPLORATION</h1>
+<h1 class="headings">1. Geographical and Administrative Identity</h1>
+<p>The Great Blue Hole is a colossal submarine sinkhole positioned near the geographic center of Lighthouse Reef, an isolated offshore coral atoll situated approximately 70 kilometers (43 miles) east of mainland Belize City. Geographically anchored at coordinates 17°18'55" N, 87°32'04" W, this aquatic wonder is legally protected under the administrative jurisdiction of the Belizean government. It forms the crown jewel of the larger Belize Barrier Reef Reserve System, which was collectively designated a UNESCO World Heritage Site in 1996 due to its highly unique geological value and critical ecosystems.</p>
+<h1 class="headings">2. Quantitative Physical Dimensions</h1>
+<p>The physical configuration of the sinkhole presents a nearly flawless, striking geometric circle when viewed from high altitudes, creating a sharp, deep indigo contrast against the light-filled turquoise waters of the surrounding shallow lagoon reef. Its validated metrics comprise the following technical parameters:</p>
+<p><b>•	Surface Diameter:</b> Measures precisely 318 meters (1,043 feet) across, ranking it as the widest natural formation of its type on the planet.</p>
+<p><b>•	Plunging Depth:</b> Reaches a vertical measurement of 124 meters (407 feet). While deeper inland blue holes exist, this represents the largest marine-enclosed karst shaft by overall structural volume.</p>
+<p><b>•	Surface Footprint:</b> Covers a total planar surface area of approximately 70,650 square meters (760,500 square feet).</p>
+
+<h1 class="headings">3. Geomorphological History and Formation Phases</h1>
+<p>Rather than being formed by modern ocean currents, the Great Blue Hole originated as a subaerial limestone cave network during the Pleistocene epoch. When substantial portions of global water were sequestered within continental ice sheets, regional sea levels were approximately 120 meters lower than contemporary baselines. Slightly acidic rainwater trickled down through exposed coastal limestone, slowly dissolving the stone to carve out vaulted subterranean rooms.</p>
+<p>As the Quaternary glaciation shifted into warming cycles, melting glaciers caused sea levels to experience rapid consecutive rises. The rising ocean engulfed the hollow chambers, and the resulting hydrostatic imbalance caused the thin, unbacked limestone ceilings to collapse inward, creating the vertical marine shaft seen today.</p>
+
+<table border="2px">
+    <tr><th>Submerged Ledge Depth</th>    <th>Geological Significance and Mineral Chronology</th>   </tr>
+    <tr><td><b>21 Meters (69 Feet)</b></td>    <td>The initial erosion shelf, marking a prolonged period of stable sea level during early glacial accumulation phases.</td>   </tr>
+    <tr><td><b>49 Meters (161 Feet)</b></td>    <td>The secondary horizontal ledge, indicating a mid-stage pause in the ice age meltwater transition.</td>   </tr>
+    <tr><td><b>91 Meters (299 Feet)</b></td>    <td>The zone of massive structural overhangs, populated by submerged, ancient stalactite columns measuring up to 12 meters in length.</td>  </tr>
+    <tr><td><b>Isotopic Chronology</b></td>    <td>Uranium-thorium dating of these mineral stalactites isolates four distinct structural growth phases: 153,000; 66,000; 60,000; and 15,000 years ago.</td>  </tr>
+    
+</table>
+
+<h1 class="headings">4. Vertical Hydrochemical Stratification</h1>
+<p>The interior aquatic matrix of the Great Blue Hole is severely isolated from general Caribbean wave actions, resulting in a highly stable, sharply stratified water column divided into distinct chemical zones:</p>
+<p><b>•	Oxygenated Shallow Realm (0–90m):</b> The upper layers support clear, light-filled conditions with normal marine salinity, sustaining coral colonies along the perimeter rim and providing passage for high-altitude predators.</p>
+<p><b>•	The Toxic Chemocline (~90m):</b> At this specific boundary layer, a dense concentration of toxic hydrogen sulfide ($H_2S$) blankets the pit, completely preventing sunlight penetration and turning the water below pitch black.</p>
+<p><b>•	The Anoxic Deep Floor (90–124m):</b> Beneath the chemocline, the water is entirely anoxic (devoid of dissolved oxygen). Lacking oxygen and biological activity, this hyper-still basin acts as a pristine preservation trap, protecting falling organic debris, historical sediments, and lost equipment from natural bacterial decay.</p>
+<h1 class="headings">5. Ecological Distribution and Marine Life</h1>
+<p>The biological density changes drastically based on vertical depth, transitioning from a bustling tropical coral community into an eerie, silent void:</p>
+<p><b>•	The Shallow Perimeter Rim:</b> Thriving with hard elkhorn, brain, and staghorn corals. This fringe zone provides shelter for specialized schools of midnight parrotfish, angelfish, butterflyfish, Pederson's cleaner shrimp, and neon gobies.</p>
+<p><b>•	The Pelagic Apex Predators:</b> The vertical cliff drops act as patrolling paths for large reef sharks, including massive nurse sharks, Caribbean reef sharks, blacktip sharks, and occasional hammerhead or bull sharks.</p>
+<p><b>•	The Deep Void:</b> Below 40 meters, macro-biological life ceases entirely due to the absence of light and oxygen, leaving only specialized anaerobic bacteria to colonize the deep silt floor.</p>
+<h1 class="headings">6. History of Exploration and Modern Diving Regulations</h1>
+<p>While local maritime fishermen had navigated past the atoll for generations, the site achieved permanent global prominence in 1971 through the pioneering work of legendary French oceanographer Jacques Cousteau. Sailing his famed research vessel, the Calypso, Cousteau meticulously mapped the vertical cave walls and brought the first moving film of its massive underwater stalactites to the global public, declaring it one of the top five scuba diving locations on Earth.
+Due to its extreme depth and complex vertical layout, modern diving is strictly regulated by the Belize Audubon Society. To venture beyond the shallow rim into the cave system, divers are legally required to hold Advanced Open Water certification alongside a verified minimum of 25 logged deep-water descents. These stringent rules mitigate the severe risks of deep-water nitrogen narcosis and orientation loss, ensuring that human interactions with this ancient geological capsule remain safe and conservation-focused.
+</p>
+
+</div>    
+<div class="line">"This is not the end of information; exploration is ongoing."</div>
+    
+
+</section>
+</div>
+</body>
+</html>
